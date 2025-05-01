@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simule sua Economia com Energia Solar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .cta {
+      background-color: #4caf50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 20px;
+      width: 100%;
+      cursor: pointer;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .testimonial {
+      background-color: #eee;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .whatsapp {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .whatsapp a {
+      background-color: #25d366;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebe5b;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simule Sua Economia com Energia Solar</h1>
+  </header>
+
+  <div class="container">
+    <div class="cta">
+      Reduza até 95% da sua conta de luz com energia solar!
+    </div>
+
+    <form>
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="telefone">Telefone / WhatsApp</label>
+      <input type="tel" id="telefone" name="telefone" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="cep">CEP ou Endereço</label>
+      <input type="text" id="cep" name="cep" required />
+
+      <label for="tipo">Tipo de imóvel</label>
+      <select id="tipo" name="tipo">
+        <option>Residencial</option>
+        <option>Comercial</option>
+        <option>Rural</option>
+      </select>
+
+      <button type="submit">Simular Agora</button>
+    </form>
+
+    <div class="section">
+      <h2>Como Funciona?</h2>
+      <ol>
+        <li>Você preenche os dados</li>
+        <li>Nós analisamos seu consumo e localização</li>
+        <li>Enviamos sua simulação personalizada</li>
+        <li>Você decide se quer instalar</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Depoimentos de Clientes</h2>
+      <div class="testimonial">
+        "Reduzi minha conta em 90%! Instalação rápida e equipe muito profissional." — João, Campinas/SP
+      </div>
+      <div class="testimonial">
+        "O investimento se pagou em menos de 4 anos. Recomendo muito!" — Carla, Ribeirão Preto/SP
+      </div>
+    </div>
+
+    <div class="whatsapp">
+      <p>Tem dúvidas? Fale agora com um especialista:</p>
+      <a href="https://wa.me/5515997287276?text=Ol%C3%A1%2C+tenho+interesse+em+energia+solar+e+gostaria+de+uma+simula%C3%A7%C3%A3o" target="_blank">Falar no WhatsApp</a>
+    </div>
+  </div>
+
+  <a class="whatsapp-float" href="https://wa.me/5515997287276?text=Ol%C3%A1%2C+tenho+interesse+em+energia+solar+e+gostaria+de+uma+simula%C3%A7%C3%A3o" target="_blank">&#128172;</a>
+
+  <footer>
+    Atendemos Sorocaba, Votorantim e região. Empresa homologada pela ANEEL.
+  </footer>
+</body>
+</html>
